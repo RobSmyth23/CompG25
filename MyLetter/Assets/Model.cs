@@ -17,42 +17,42 @@ public class Model
 	{
 		//front vertices
 	vertices = new List<Vector3>();
-	vertices.Add(new Vector3(-3f, 8f, 1f) ); //0
-	vertices.Add(new Vector3(-3f,-9f, 1f) ); //1
-	vertices.Add(new Vector3(-1f,-9f, 1f) ); //2
-	vertices.Add(new Vector3(2f,-9f, 1f) ); //3
-	vertices.Add(new Vector3(4f,-9f, 1f) ); //4
-	vertices.Add(new Vector3(2f,-6f, 1f) ); //5
-	vertices.Add(new Vector3(4f,-5f, 1f) ); //6
-	vertices.Add(new Vector3(-1f,-3f, 1f) ); //7
-	vertices.Add(new Vector3(-1f, 0f, 1f) ); //8
-	vertices.Add(new Vector3(3f,0f, 1f) ); //9
-	vertices.Add(new Vector3(4f,1f, 1f) ); //10
-	vertices.Add(new Vector3(-2f,2f, 1f) ); //11
-	vertices.Add(new Vector3(3f,2f, 1f) ); //12
-	vertices.Add(new Vector3(-2f,7f, 1f) ); //13
-	vertices.Add(new Vector3(3f,7f, 1f) ); //14
-	vertices.Add(new Vector3(4f,8f, 1f) ); //15
-	vertices.Add(new Vector3(3f,8f, 1f) ); //16
+	vertices.Add(new Vector3(-3f, 7f, 1f) ); //0
+	vertices.Add(new Vector3(-3f,-7f, 1f) ); //1
+	vertices.Add(new Vector3(-2f,-7f, 1f) ); //2
+	vertices.Add(new Vector3(1f,-7f, 1f) ); //3
+	vertices.Add(new Vector3(3f,-7f, 1f) ); //4
+	vertices.Add(new Vector3(1f,-6f, 1f) ); //5
+	vertices.Add(new Vector3(3f,-6f, 1f) ); //6
+	vertices.Add(new Vector3(-2f,-2f, 1f) ); //7
+	vertices.Add(new Vector3(-1f, -1f, 1f) ); //8
+	vertices.Add(new Vector3(1f, -1f, 1f) ); //9
+	vertices.Add(new Vector3(-1f,0f, 1f) ); //10
+	vertices.Add(new Vector3(1f, 0f, 1f) ); //11
+	vertices.Add(new Vector3(3f, 0f, 1f) ); //12
+	vertices.Add(new Vector3(-1f, 6f, 1f) ); //13
+	vertices.Add(new Vector3(1f, 6f, 1f) ); //14
+	vertices.Add(new Vector3(3f, 6f, 1f) ); //15
+	vertices.Add(new Vector3(1f, 7f, 1f) ); //16
 	
 		//back vertices
-	vertices.Add(new Vector3(-3f, 8f, -1f) ); //17
-	vertices.Add(new Vector3(-3f,-9f, -1f) ); //18
-	vertices.Add(new Vector3(-1f,-9f, -1f) ); //19
-	vertices.Add(new Vector3(2f,-9f, -1f) ); //20
-	vertices.Add(new Vector3(4f,-9f, -1f) ); //21
-	vertices.Add(new Vector3(2f,-6f, -1f) ); //22
-	vertices.Add(new Vector3(4f,-5f, -1f) ); //23
-	vertices.Add(new Vector3(-1f,-3f, -1f) ); //24
-	vertices.Add(new Vector3(-1f, 0f, -1f) ); //25
-	vertices.Add(new Vector3(3f,0f, -1f) ); //26
-	vertices.Add(new Vector3(4f,1f, -1f) ); //27
-	vertices.Add(new Vector3(-2f,2f, -1f) ); //28
-	vertices.Add(new Vector3(3f,2f, -1f) ); //29
-	vertices.Add(new Vector3(-2f,7f, -1f) ); //30
-	vertices.Add(new Vector3(3f,7f, -1f) ); //31
-	vertices.Add(new Vector3(4f,8f, -1f) ); //32
-	vertices.Add(new Vector3(3f,8f, -1f) ); //33
+		vertices.Add(new Vector3(-3f, 7f, -1f) ); //17
+		vertices.Add(new Vector3(-3f,-7f, -1f) ); //18
+		vertices.Add(new Vector3(-2f,-7f, -1f) ); //19
+		vertices.Add(new Vector3(1f,-7f, -1f) ); //20
+		vertices.Add(new Vector3(3f,-7f, -1f) ); //21
+		vertices.Add(new Vector3(1f,-6f, -1f) ); //22
+		vertices.Add(new Vector3(3f,-6f, -1f) ); //23
+		vertices.Add(new Vector3(-2f,-2f, -1f) ); //24
+		vertices.Add(new Vector3(-1f, -1f, -1f) ); //25
+		vertices.Add(new Vector3(1f, -1f, -1f) ); //26
+		vertices.Add(new Vector3(-1f,0f, -1f) ); //27
+		vertices.Add(new Vector3(1f, 0f, -1f) ); //28
+		vertices.Add(new Vector3(3f, 0f, -1f) ); //29
+		vertices.Add(new Vector3(-1f, 6f, -1f) ); //30
+		vertices.Add(new Vector3(1f, 6f, -1f) ); //31
+		vertices.Add(new Vector3(3f, 6f, -1f) ); //32
+		vertices.Add(new Vector3(1f, 7f, -1f) ); //33
 
 
 	}
@@ -97,10 +97,41 @@ public class Model
 	faces.Add(new Vector3Int(22, 20, 21) ); //Face 32
 	
 		//side faces
-	faces.Add(new Vector3Int(0, 18, 17) ); //face 34
-	faces.Add(new Vector3Int(1, 18, 0) ); // face 35
-	faces.Add(new Vector3Int(33, 0, 17) ); // face 36
-	faces.Add(new Vector3Int(33, 16, 0) ); // face 37
+	faces.Add(new Vector3Int(17,8,33) );
+	faces.Add(new Vector3Int(33,17,16) );
+	faces.Add(new Vector3Int(32,33,16) );
+	faces.Add(new Vector3Int(32,16,15) );
+	faces.Add(new Vector3Int(32,15,12) );
+	faces.Add(new Vector3Int(32,12,29) );
+	faces.Add(new Vector3Int(26,29,12) );
+	faces.Add(new Vector3Int(26,12,9) );
+	faces.Add(new Vector3Int(9,8,25) );
+	faces.Add(new Vector3Int(9,25,26) );
+	faces.Add(new Vector3Int(6,8,25) );
+	faces.Add(new Vector3Int(6,25,23) );
+	faces.Add(new Vector3Int(23,6,4) );
+	faces.Add(new Vector3Int(23,4,21) );
+	faces.Add(new Vector3Int(4,3,20) );
+	faces.Add(new Vector3Int(4,20,24) );
+	
+	faces.Add(new Vector3Int(22,5,3) );
+	faces.Add(new Vector3Int(22,3,20) );
+	faces.Add(new Vector3Int(5,7,24) );
+	faces.Add(new Vector3Int(5,24,22) );
+	faces.Add(new Vector3Int(24,7,2) );
+	faces.Add(new Vector3Int(24,2,19) );
+	faces.Add(new Vector3Int(2,1,18) );
+	faces.Add(new Vector3Int(2,18,19) );
+	faces.Add(new Vector3Int(17,0,1) );
+	faces.Add(new Vector3Int(17,1,18) );
+	faces.Add(new Vector3Int(14,13,30) );
+	faces.Add(new Vector3Int(14,30,31) );
+	faces.Add(new Vector3Int(31,14,11) );
+	faces.Add(new Vector3Int(31,11,28) );
+	faces.Add(new Vector3Int(10,11,28) );
+	faces.Add(new Vector3Int(10,28,27) );
+	faces.Add(new Vector3Int(30,13,10) );
+	faces.Add(new Vector3Int(30,10,27) );
 
 	
 	}

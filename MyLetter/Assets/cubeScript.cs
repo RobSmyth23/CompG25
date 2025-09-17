@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class graphicsPipeline : MonoBehaviour
+public class cubeScript : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Model mymodel = new Model();
+        
     }
 
     // Update is called once per frame
